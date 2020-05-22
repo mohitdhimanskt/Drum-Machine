@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="veiwport" content="width=deice-width , initial-scale">
     <link rel="apple-touch-icon" type="image/png"
      href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
      <meta name="apple-mobile-web-app-title" content="CodePen">
@@ -12,8 +13,37 @@
      <title>Durm Machine</title>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
-<body>
-    
+<body translate="no">
+    <div id="root">
+        <div id="drum-machine" class="inner-container" data-reactroot="">
+            <div class="pad-bank">
+                <div id="Heater-1" class="drum-pad">
+                <audio class="clip" id="Q" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>"
+            <!--react-text: 5-->  
+            Q
+            <!--/react-text-->
+
+            </div>
+            <div id="Heater-2" class="drum-pad">
+                <audio class="clip" id="W" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"></audio>
+                <!--react-text: 8-->
+                W
+                <!--/react-text-->
+                <div id="Heater-3" class="drum-pad">
+                    <audio class="clip" id="E" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"></audio>
+                    <!--react-text: 11-->
+                           E
+                    <!--/react-text-->
+             </div>
+             <div id="Heater-4" class="drum-pad">
+                <audio class="clip" id="A" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"></audio>
+
+             </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
 </html>
