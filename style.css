@@ -50,3 +50,23 @@ body {
     top: 5px;
     right: 10px;
 }
+.inner-container .logo .inner-logo {
+    display: inline-block;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-free-code-camp::before {
+    content: "\f2c5";
+}
