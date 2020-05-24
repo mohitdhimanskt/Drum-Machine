@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
 body{
     user-select: none;
     background-color: #8d8d8d
@@ -113,3 +115,4 @@ body {
     margin: 12.5px 0;
     width: 100%;
 }
+    
